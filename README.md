@@ -7,4 +7,4 @@ This is an template proxy server that you can use to quickly display all four in
 - Run `nvm use` to switch the version of node required for this project. If this version isn't currently installed, run `nvm install` to install this version
 - Run `npm install` to install all the project dependencies
 - Read the information and instructions in `server/config/services.js` to provide the required configuration information to enable the proxying functionality
-- Run `npm start` or `npm start:dev` to start the server
+- Run `npm start` or `npm start:dev` to start the server.
