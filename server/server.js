@@ -7,7 +7,7 @@ const PUBLIC_DIR = path.resolve(__dirname, '..', 'public');
 const app = express();
 
 app.use(morgan('dev'));
-app.use(express.static(PUBLIC_DIR));
+app.use('/homes/:id', express.static(PUBLIC_DIR)); // edit homes/id/public
 
 // Handling asset requests for webpack bundles by passing off requests to the bundles router
 app.use('/bundles', router.bundles);
