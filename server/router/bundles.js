@@ -6,7 +6,7 @@ const {
 
 const router = Router();
 
-router.use('/service1111.js', createProxyMiddleware({
+router.use('/service1.js', createProxyMiddleware({
   target: `${service1.url}/:id`,
   pathRewrite: {
     '^/bundles/service1.js': service1.bundle,
