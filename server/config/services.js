@@ -43,27 +43,27 @@
 module.exports = {
   service1: {
     api: '/homes/:id/photos',
-    url: 'http://localhost:3001',
+    url: 'http://54.196.247.203:3000/1',
     bundle: 'bundle.js',
   },
   service2: {
     api: '/homes/:id/info',
-    url: 'http://localhost:3002',
+    url: 'http://34.220.254.51:3000/1',
     bundle: 'bundle.js',
   },
   service3: {
     api: '/homes/:id/calender',
-    url: 'http://localhost:3003',
+    url: 'http://54.244.62.81:3000/1',
     bundle: 'bundle.js',
   },
   service4: {
     api: '/homes/:id/reviews',
-    url: 'http://localhost:3004',
+    url: 'http://34.211.110.214:8080/1',
     bundle: 'bundle.js',
   },
   service5: {
     api: '/homes/:id/images/*',
-    url: 'http://localhost:3005',
+    url: 'http://34.208.70.112:3000/2',
     bundle: 'bundle.js',
   },
 };
