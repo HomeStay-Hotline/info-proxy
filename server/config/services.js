@@ -52,7 +52,7 @@ module.exports = {
     bundle: 'bundle.js',
   },
   service3: {
-    api: '/homes/:id/calender',
+    api: '/homes/:id/calendar',
     url: 'http://54.244.62.81:3000',
     bundle: 'bundle.js',
   },
