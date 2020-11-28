@@ -1,7 +1,7 @@
-const bundles = require('./bundles.js');
+// const bundles = require('./bundles.js');
 const api = require('./api.js');
 
 module.exports = {
-  bundles,
+  // bundles,
   api,
 };
