@@ -67,31 +67,3 @@ module.exports = {
     bundle: 'bundle.js',
   },
 };
-
-// module.exports = {
-//   service1: {
-//     api: '/homes/:id/images/*',
-//     url: 'http://34.208.70.112:3000',
-//     bundle: 'bundle.js',
-//   },
-//   service2: {
-//     api: '/homes/:id/images/*',
-//     url: 'http://34.208.70.112:3000',
-//     bundle: 'bundle.js',
-//   },
-//   service3: {
-//     api: '/homes/:id/images/*',
-//     url: 'http://34.208.70.112:3000',
-//     bundle: 'bundle.js',
-//   },
-//   service4: {
-//     api: '/homes/:id/images/*',
-//     url: 'http://34.208.70.112:3000',
-//     bundle: 'bundle.js',
-//   },
-//   service5: {
-//     api: '/homes/:id/images/*',
-//     url: 'http://34.208.70.112:3000',
-//     bundle: 'bundle.js',
-//   },
-// };
