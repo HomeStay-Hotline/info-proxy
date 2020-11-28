@@ -10,7 +10,7 @@ app.use(morgan('dev'));
 app.use('/homes/:id', express.static(PUBLIC_DIR)); // edit homes/id/public
 
 // Handling asset requests for webpack bundles by passing off requests to the bundles router
-app.use('/bundles/:id', router.bundles);
+app.use('/homes/:id/bundles', router.bundles);
 // Handling AJAX requests to the API by passing off requests to the api router
 app.use('/api', router.api);
 
